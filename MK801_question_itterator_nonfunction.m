@@ -2,14 +2,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Analysis_function=@testing;
+Analysis_function=@plot_no_art_psd;
 
 root_results_directory = 'C:\Users\Lindsay\Keck Medicine of USC\MK801_Results';
 specific_results_directory = fullfile(root_results_directory, func2str(Analysis_function));
 if ~exist(specific_results_directory,'dir')
     mkdir(specific_results_directory)
 end
-root_data_directory = 'C:\Users\Lindsay\Keck Medicine of USC\Zepeda, Nancy - 20946 ALL EEG DATA';
+root_data_directory = 'C:\Users\Lindsay\Keck Medicine of USC\Zepeda, Nancy - 20946 ALL EEG FILES AGAIN\20946-Acute\EEG\20946-PSD7&8-POSTinjs';
 
 %Pre_Recordings_MK801_PSD7
 Rat_file_folder='C:\Users\Lindsay\Keck Medicine of USC\Zepeda, Nancy - 20946 ALL EEG DATA\20946-Acute\EEG\20946-PSD7&8-PREEinjs\MK801\PSD7';
